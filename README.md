@@ -215,6 +215,7 @@ The application demonstrates how machine learning can be transformed into a prac
 * Developed an interactive machine learning application
 * Transformed historical entertainment research into a practical decision-support platform
 * Demonstrated the complete lifecycle from raw data to deployable analytical product
+* Access the app here: [Franchise Concept Analyzer](https://franchise-concept-analyzer.streamlit.app/)
 
 ---
 
