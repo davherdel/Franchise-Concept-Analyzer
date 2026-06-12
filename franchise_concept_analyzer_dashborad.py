@@ -956,7 +956,7 @@ st.markdown(f"""
   </div>
   <div style="color:{TEXT_DIM};font-size:0.82rem;">
     Sources: IMDb (1948–2023) · Amazon Toys US (Aug 2023) · Netflix (2025) · YouTube Data API v3<br>
-    <span style="font-size:0.88rem;color:#666688;">🔭 Roadmap: Regional toy sales data (Amazon EU/Asia) to reduce geographic bias · Live YouTube API search for real-time concept analysis
+    <span style="font-size:0.88rem;color:#666688;">🔭 Planned: Live YouTube API search for real-time concept analysis
 </span>
   </div>
 </div>
