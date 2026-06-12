@@ -7,6 +7,7 @@
 > **End-to-end machine learning project combining 74 years of animated television history with IMDb audience signals, Netflix distribution reach, Amazon merchandise indicators, and YouTube engagement data to evaluate the franchise potential of new animated show concepts through an interactive decision-support platform.**
 
 🎬 **[Try the live app → Franchise Concept Analyzer](https://franchise-concept-analyzer.streamlit.app/)**
+[![Franchise Concept Analyzer — Live App](app_screenshot.png)](https://franchise-concept-analyzer.streamlit.app/)
 
 ---
 
