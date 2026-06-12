@@ -1,0 +1,1 @@
+# Franchise-Concept-Analyzer
