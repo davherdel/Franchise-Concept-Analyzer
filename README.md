@@ -6,6 +6,8 @@
 
 > **End-to-end machine learning project combining 74 years of animated television history with IMDb audience signals, Netflix distribution reach, Amazon merchandise indicators, and YouTube engagement data to evaluate the franchise potential of new animated show concepts through an interactive decision-support platform.**
 
+🎬 **[Try the live app → Franchise Concept Analyzer](https://franchise-concept-analyzer.streamlit.app/)**
+
 ---
 
 ## 👤 About This Project
@@ -110,6 +112,8 @@ Investigated relationships between:
 * Distribution reach and visibility
 * Merchandise indicators and commercial potential
 
+![Franchise Landscape — Exploratory Scatter](franchise_scatter.png)
+
 The analysis identified recurring patterns shared by many of the industry's most successful franchises.
 
 ### Section 3 — Machine Learning Pipeline
@@ -126,6 +130,10 @@ Key activities included:
 
 The final solution uses XGBoost as its primary predictive model.
 
+![Model Performance Evaluation](model_performance.png)
+
+![Feature Importance — Franchise Model](feature_importance_franchise.png)
+
 ### Section 4 — Explainable AI
 
 SHAP analysis was implemented to:
@@ -134,6 +142,10 @@ SHAP analysis was implemented to:
 * Identify franchise success drivers
 * Measure feature influence
 * Improve model transparency
+
+![SHAP Summary — Feature Influence on Franchise Potential](shap_summary.png)
+
+![SHAP Feature Impact](shap_bar.png)
 
 This transformed the project from a predictive exercise into a decision-support framework.
 
@@ -180,7 +192,9 @@ This project demonstrates not only model development, but also product-oriented 
 
 ## 🤖 Interactive Application
 
-The final deliverable is a Streamlit-powered franchise evaluation platform.
+The final deliverable is a Streamlit-powered franchise evaluation platform, **deployed and publicly available**:
+
+### 🎬 [Launch the app — franchise-concept-analyzer.streamlit.app](https://franchise-concept-analyzer.streamlit.app/)
 
 Users can:
 
@@ -202,7 +216,7 @@ The application demonstrates how machine learning can be transformed into a prac
 | **Machine Learning Model**       | XGBoost franchise evaluation engine     |
 | **SHAP Analysis**                | Explainable AI outputs                  |
 | **Visualizations**               | Research and presentation graphics      |
-| **Streamlit Application**        | Interactive concept evaluation platform |
+| **Streamlit Application**        | [Live interactive concept evaluation platform](https://franchise-concept-analyzer.streamlit.app/) |
 | **Feature Engineering Pipeline** | Franchise analysis framework            |
 
 ---
@@ -212,7 +226,7 @@ The application demonstrates how machine learning can be transformed into a prac
 * Built a custom franchise evaluation framework using multiple entertainment datasets
 * Integrated IMDb, Netflix, Amazon, and YouTube Data API signals
 * Applied explainable AI using SHAP
-* Developed an interactive machine learning application
+* Developed and **deployed** an interactive machine learning application
 * Transformed historical entertainment research into a practical decision-support platform
 * Demonstrated the complete lifecycle from raw data to deployable analytical product
 * Access the app here: [Franchise Concept Analyzer](https://franchise-concept-analyzer.streamlit.app/)
